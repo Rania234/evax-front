@@ -9,7 +9,7 @@ function CentreInscri () {
             <div style={{margin:"auto"}}>
                 <Button className="chBtn">Citoyen possedant une CIN </Button>
                 <Button className="chBtn">Citoyen ne possedant pas une CIN </Button>
-                <Button className="chBtn">Citoyen étrangé </Button>
+             
             </div>
         </div>
         

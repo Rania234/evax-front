@@ -6,6 +6,7 @@ import FirstVir from '../Inscription/FirstVir';
 import SecondVir from '../Inscription/SecondVir';
 import 'antd/dist/antd.css';
 import axios from "../../../http-common";
+import "./InscriSteps.css"
 const { Step } = Steps;
 
 const steps = [

@@ -5,12 +5,17 @@ import CentreInscri from "./components/CentreInscri/CentreInscri";
 import InscriSteps from "./components/CentreInscri/InscriSteps/InscriSteps";
 import LoginCentre from './Page/LoginCentre/LoginCentre';
 import Navbar from './components/Navbar/Navbar'
+import Inscri from "./components/CentreInscri/Inscription/Inscri";
+import SecondVir from "./components/CentreInscri/Inscription/SecondVir";
 function App() {
   return (
     <div className="App">
+   {/* <SecondVir/> */}
+     {/* <Inscri/> */}
 
-{/*       
-      <Banner /> */}
+
+      
+      {/* <Banner /> */}
       {/* <LoginCentre/> */}
           <InscriSteps/>
           {/* <Navbar/> */}

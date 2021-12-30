@@ -42,6 +42,23 @@ export const fetchUser = () => {
 }
 
 
+export const addUserApi = (user) => {
+    return async (dispatch) => {
+        try {
+            const res = await axios.post('https://jsonplaceholder.typicode.com/users',
+                {
+                    name: user.name,
+                    ncin: user.ncin,
+                    date: user.date, 
+                    phone: user.phone,
+                    email: user.email
+                })
+            dispatch(addUserSuccess(res.data))
+        } catch (err) {
+            dispatch(addUserError(err))
+        }
+    }
+}
 
 
 

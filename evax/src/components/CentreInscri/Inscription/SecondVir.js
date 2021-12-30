@@ -27,18 +27,25 @@ const handleChangePassword= (e) => {
     return (
         <div className="formulaire">
 
-                <h6> Mail</h6>
+                <h5> Adresse-mail</h5>
                 <Input name="email"  onChange={handleChange} className="inputInfo"/>
-                <h6> Password</h6>
+                <h5> Password</h5>
                 <Input name="password"  onChange={handleChangePassword} className="inputInfo"/>
                 <div className="select-centre">
                     <div>
-                        <h6 style={{marginRight:"10px"}}> Centre de vaccination</h6>
+                        <h5 style={{marginRight:"10px"}}> Centre de vaccination</h5>
                     </div>
-                    <div>
-                        <h6> Pharmacie</h6>
-                    </div>   
+                     
                 </div>
+                <Input className="inputInfo"/>
+
+                <div className="select-lieu">
+                    <div>
+                        <h5 style={{marginRight:"10px"}}> Le lieu où aura lieu la vaccination</h5>
+                    </div>
+                     
+                </div>
+                
                 <Input className="inputInfo"/>
                 
                 

@@ -1,0 +1,74 @@
+.firstStep{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-left: 150px;
+}
+.form1{
+    /* margin-top: 80px;
+    border-radius: 12px;
+    width: 60%;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: 250px */
+    width:60%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    margin-top: 60px;
+    margin-left: 250px;
+   
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.inputInfo{
+    border-radius: 10px;
+    border-color: #F2F2F2;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.steps-action{
+    align-self: center;
+    justify-self: center;
+    margin-left: 200px;
+}
+.suivant{
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    background-color: #90ff6e;
+    border-color: transparent;
+    padding-right: 25px;
+    margin-bottom: 20px;
+}
+.suivant:hover{
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    background-color: #90ff6e;
+    border-color: transparent;
+    padding-right: 25px;
+    margin-bottom: 20px;
+}
+.suivant:focus{
+    border-radius: 50px;
+    color: white;
+    font-size: 18px;
+    background-color: #90ff6e;
+    border-color: transparent;
+    padding-right: 25px;
+    margin-bottom: 20px;
+}
+
+.steps{
+    margin-left: -60px;
+    
+}
+.Inscri{
+    
+        background: #81cf67;
+   
+}
